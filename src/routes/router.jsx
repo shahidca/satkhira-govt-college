@@ -3,6 +3,7 @@ import Root from "./Root";
 import Home from "../Pages/Home/Home";
 import ErrorPage from "../Pages/Error/ErrorPage";
 import AboutPage from "../Pages/About/AboutPage";
+import Science from "../components/Groups/Sciences/Science";
 
 export const router = createBrowserRouter([
   {
@@ -15,6 +16,9 @@ export const router = createBrowserRouter([
         },
         {
           path: "/about", element: <AboutPage></AboutPage>
+        },
+        {
+          path: "/groups/science", element: <Science></Science>
         }
     ]   
   },

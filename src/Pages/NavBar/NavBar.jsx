@@ -45,7 +45,7 @@ export default function NavBar() {
             className="w-11 h-11 rounded-full transition-all duration-500 hover:scale-125 hover:rotate-6 drop-shadow-lg"
           />
           <h1 className="text-2xl font-extrabold text-gray-900 hover:text-green-600 transition-all duration-500">
-            MyUniversity
+            Satkhira Govt College
           </h1>
         </div>
 
