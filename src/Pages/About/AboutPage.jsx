@@ -1,10 +1,12 @@
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet-async";
 import { FaUniversity, FaChalkboardTeacher, FaHistory, FaAward, FaGlobeAsia } from "react-icons/fa";
 
 export default function AboutPage() {
   return (
+    
     <div className="bg-gray-50 text-gray-900">
-
+      <Helmet><title>Satkhira Govt College | About</title></Helmet>
       {/* ===================== HERO SECTION ===================== */}
       <section className="relative h-[350px] md:h-[450px] overflow-hidden">
         <img
