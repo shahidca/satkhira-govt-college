@@ -111,7 +111,7 @@ export default function ContactPage() {
 
                 <div>
                   <label className="block text-gray-700 font-medium mb-1">Department</label>
-                  <select name="department" className="w-full px-4 py-3 rounded-xl border border-green-400 focus:ring-2 focus:ring-green-400 outline-none">
+                  <select name="department" className="w-full px-4 py-3 rounded-xl border border-green-400 focus:ring-2 focus:ring-green-400 outline-none text-black">
                     <option>General</option>
                     <option>Admission</option>
                     <option>Examination</option>
